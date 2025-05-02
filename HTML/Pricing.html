@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/Pricing.css'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Home.html" class="logo">Wellness Center</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Pricing.html">Pricing</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">☰</button>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Wellness Center Memberships</h1>
+            <p>Discover the perfect fitness membership for your wellness journey. All plans include access to our
+                state-of-the-art facilities with premium services available at higher tiers.</p>
+        </header>
+
+        <div class="pricing-toggle">
+            <span class="toggle-label active" id="monthly-label">Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="billing-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label" id="annual-label">Annual</span>
+        </div>
+
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2>Basic Fitness</h2>
+                    <p>Essential gym access for beginners</p>
+                </div>
+                <div class="card-content">
+                    <div class="price">
+                        <span class="amount" data-monthly="$39.99" data-annual="$29.99">$39.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <div class="annual-savings" id="basic-savings">Save 25% with annual membership</div>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">General gym access</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Cardio equipment</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Locker room access</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon excluded">✗</span>
+                            <span class="feature-text">Group fitness classes</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon excluded">✗</span>
+                            <span class="feature-text">Personal training sessions</span>
+                        </div>
+                    </div>
+                    <a href="#" class="cta-button">Join Now</a>
+                </div>
+            </div>
+
+            <div class="pricing-card recommended">
+                <div class="recommended-tag">Most Popular</div>
+                <div class="card-header">
+                    <h2>Premium Fitness</h2>
+                    <p>Complete access for fitness enthusiasts</p>
+                </div>
+                <div class="card-content">
+                    <div class="price">
+                        <span class="amount" data-monthly="$59.99" data-annual="$49.99">$59.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <div class="annual-savings" id="pro-savings">Save 17% with annual membership</div>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Everything in Basic Fitness</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Unlimited group classes</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Fitness assessment</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Sauna & steam room</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon excluded">✗</span>
+                            <span class="feature-text">Personal training package</span>
+                        </div>
+                    </div>
+                    <a href="#" class="cta-button">Join Now</a>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2>Elite Wellness</h2>
+                    <p>Ultimate wellness experience for dedicated members</p>
+                </div>
+                <div class="card-content">
+                    <div class="price">
+                        <span class="amount" data-monthly="$89.99" data-annual="$74.99">$89.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <div class="annual-savings" id="premium-savings">Save 17% with annual membership</div>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Everything in Premium Fitness</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">4 personal training sessions/month</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Nutrition consultation</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Wellness app premium access</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon included">✓</span>
+                            <span class="feature-text">Unlimited guest passes</span>
+                        </div>
+                    </div>
+                    <a href="#" class="cta-button">Join Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="special-offers-section">
+            <h2 class="section-title">Special Discounts & Offers</h2>
+
+            <div class="special-offers-container">
+                <div class="offer-box">
+                    <div class="offer-header">Limited Time Offer</div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">Spring Fitness Special</h3>
+                        <p class="offer-description">Get ready for summer with our special spring promotion! Join now
+                            and receive your first month at 50% off plus a free fitness assessment.</p>
+
+                        <div class="offer-price">
+                            <span class="original-price">$59.99</span>
+                            <span class="discounted-price">$29.99</span>
+                            <span class="save-badge">Save 50%</span>
+                        </div>
+
+                        <div class="countdown-container">
+                            <div class="countdown-label">Offer expires in:</div>
+                            <div class="countdown-timer" data-end="2025-05-15T23:59:59">
+                                <div class="countdown-unit days">03</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit hours">12</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit minutes">45</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit seconds">22</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="offer-button">Claim Offer</a>
+                        <p class="offer-terms">*Terms and conditions apply. Valid for new members only.</p>
+                    </div>
+                </div>
+
+                <div class="offer-box">
+                    <div class="offer-header">Student Discount</div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">Student Fitness Plan</h3>
+                        <p class="offer-description">Special rates for students with valid ID. Get access to our Premium
+                            Fitness membership at Basic pricing, plus 2 free guest passes every month.</p>
+
+                        <div class="offer-price">
+                            <span class="original-price">$59.99</span>
+                            <span class="discounted-price">$39.99</span>
+                            <span class="save-badge">Save 33%</span>
+                        </div>
+
+                        <div class="countdown-container">
+                            <div class="countdown-label">School year special until:</div>
+                            <div class="countdown-timer" data-end="2025-06-30T23:59:59">
+                                <div class="countdown-unit days">58</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit hours">09</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit minutes">23</div>
+                                <div class="countdown-colon">:</div>
+                                <div class="countdown-unit seconds">17</div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="offer-button">Student Sign-up</a>
+                        <p class="offer-terms">*Valid student ID required at registration.</p>
+                    </div>
+                </div>
+
+                <div class="offer-box">
+                    <div class="offer-header">Senior Wellness Plan</div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">Active Seniors Discount</h3>
+                        <p class="offer-description">Specially designed for members 65+. Includes modified fitness
+                            classes, health monitoring, and personalized wellness coaching.</p>
+
+                        <div class="offer-price">
+                            <span class="original-price">$59.99</span>
+                            <span class="discounted-price">$34.99</span>
+                            <span class="save-badge">Save 42%</span>
+                        </div>
+
+                        <a href="#" class="offer-button">Learn More</a>
+                        <p class="offer-terms">*Available for members 65 and older with valid ID.</p>
+                    </div>
+                </div>
+
+                <div class="offer-box">
+                    <div class="offer-header">Corporate Wellness</div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">Corporate Partnership</h3>
+                        <p class="offer-description">Special group rates for companies with 5+ employees. Includes
+                            corporate wellness events, team challenges, and personalized health reports.</p>
+
+                        <div class="offer-price">
+                            <span class="original-price">$89.99</span>
+                            <span class="discounted-price">$64.99</span>
+                            <span class="save-badge">Save 28%</span>
+                        </div>
+
+                        <a href="#" class="offer-button">Partner With Us</a>
+                        <p class="offer-terms">*Minimum 5 employees required. Contact for custom quotes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="section-title">Membership Benefits Comparison</h2>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Benefit</th>
+                    <th>Basic Fitness</th>
+                    <th>Premium Fitness</th>
+                    <th>Elite Wellness</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gym Access Hours</td>
+                    <td>5am-10pm</td>
+                    <td>24/7</td>
+                    <td>24/7</td>
+                </tr>
+                <tr>
+                    <td>Group Fitness Classes</td>
+                    <td>✗</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>Locker Room</td>
+                    <td>Basic</td>
+                    <td>Premium</td>
+                    <td>Premium</td>
+                </tr>
+                <tr>
+                    <td>Fitness Assessment</td>
+                    <td>✗</td>
+                    <td>Quarterly</td>
+                    <td>Monthly</td>
+                </tr>
+                <tr>
+                    <td>Sauna & Steam Room</td>
+                    <td>✗</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>Personal Training</td>
+                    <td>✗</td>
+                    <td>✗</td>
+                    <td>4 sessions/month</td>
+                </tr>
+                <tr>
+                    <td>Nutrition Consultation</td>
+                    <td>✗</td>
+                    <td>✗</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>Guest Passes</td>
+                    <td>1/month</td>
+                    <td>3/month</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>Wellness App</td>
+                    <td>Basic</td>
+                    <td>Standard</td>
+                    <td>Premium</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Wellness Center</div>
+            <div class="footer-links">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Services.html">Services</a>
+                <a href="Pricing.html">Pricing</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <div class="copyright">
+                &copy;
+                <script>document.write(new Date().getFullYear());</script> Wellness Center. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../JS/Pricing.js"></script>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/Contact.css'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Home.html" class="logo">Wellness Center</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="Home.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Pricing.html">Pricing</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">☰</button>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Contact Our Wellness Center</h1>
+            <p>Have questions? Reach out to us. Our team is ready to help you on your wellness journey.</p>
+        </header>
+        
+        <div class="contact-container">
+            <div class="contact-form-container">
+                <h2 class="form-heading">Send Us a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="general">General Inquiry</option>
+                            <option value="membership">Membership Information</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit-btn">Send Message</button>
+                    
+                    <div class="confirmation-message" id="contactConfirmation">
+                        Your message has been sent successfully! We'll get back to you soon.
+                    </div>
+                    
+                    <div class="error-message" id="contactError">
+                        There was an error sending your message. Please try again.
+                    </div>
+                </form>
+            </div>
+            
+            <div class="map-contact-container">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                123 Wellness Avenue<br>
+                                Fitness District<br>
+                                Healthville, HW 12345
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">(555) 123-4567</div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">info@wellnesscenter.com</div>
+                        </div>
+                    </div>
+                    
+                    <h3>Hours of Operation</h3>
+                    <ul class="hours-list">
+                        <li>
+                            <span>Monday - Friday</span>
+                            <span>5:00 AM - 10:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Saturday</span>
+                            <span>7:00 AM - 8:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Sunday</span>
+                            <span>8:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">How do I schedule a fitness assessment?</div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            You can schedule a fitness assessment by calling us at <span class="highlight-text">(555) 123-4567</span>, or by visiting our front desk. The assessment takes approximately 45 minutes and helps us create a personalized fitness plan for you.
+                            <div class="helpful-tag">Staff Recommended</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What should I bring to my first visit?</div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            For your first visit, please bring a valid ID, comfortable workout clothes, appropriate shoes, a water bottle, and a towel. If you're coming for a specific class or session, check if there are any additional requirements. <span class="highlight-text">Lockers are available but please bring your own lock.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How do I cancel or reschedule an appointment?</div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            To cancel or reschedule an appointment, please contact us at least <span class="highlight-text">24 hours in advance</span>. You can do this by calling us or through your online account. Late cancellations or no-shows may incur a fee equal to 50% of the service price.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer nutrition plans?</div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, we offer personalized nutrition consultations with our certified nutritionists. They will create a custom meal plan based on your goals, preferences, and any dietary restrictions you may have. These consultations can be booked separately or as part of our Elite Wellness membership package.
+                            <div class="helpful-tag">Most Popular Service</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What's your policy on guests?</div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Members can bring guests depending on their membership level. Basic members get 1 guest pass per month, Premium members get 3, and Elite members have unlimited guest privileges. All guests must sign a waiver and be accompanied by the member at all times. <span class="highlight-text">Guest passes expire at the end of each month and do not roll over.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Wellness Center</div>
+            <div class="footer-links">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Services.html">Services</a>
+                <a href="Pricing.html">Pricing</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <div class="copyright">
+                &copy; <script>document.write(new Date().getFullYear());</script> Wellness Center. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../JS/Contact.js"></script>
+</html>
